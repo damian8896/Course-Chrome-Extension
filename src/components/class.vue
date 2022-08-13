@@ -9,7 +9,9 @@
 export default {
   name: 'popupView',
   props: {
-    msg: String
+    name: String,
+    rating: Number,
+    subject: String,
   }
 }
 
